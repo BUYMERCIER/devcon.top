@@ -43,6 +43,19 @@ code {
   font-size: 80%;
 }
 
+.card {
+  border-width: 0;
+  transition-duration: .2s;
+}
+
+.card:hover {
+  transform: scale(.9);
+}
+
+.bg-primary {
+  background-color: #fff !important;
+}
+
 /* main */
 .main {
   padding-top: 100px;
@@ -78,9 +91,25 @@ hr {
   background: -webkit-linear-gradient(left,#2e9bf5,#9d48ff);
   background: -mos-linear-gradient(left,#2e9bf5,#9d48ff);
   background: linear-gradient(left,#2e9bf5,#9d48ff);
-  transition-duration: .3s;
+  -webkit-transition: 0.2s;
+     -moz-transition: 0.2s;
+     -o-transition: 0.2s;
+     transition: 0.2s;
 }
 
 .btn-primary:hover {
+  -webkit-transition: 0.2s;
+     -moz-transition: 0.2s;
+     -o-transition: 0.2s;
+     transition: 0.2s;
   color: #c0c0c0;
+  transform: scale(1.1);
+}
+
+.btn-primary:active {
+  -webkit-transition: 0.2s;
+     -moz-transition: 0.2s;
+     -o-transition: 0.2s;
+     transition: 0.2s;
+  transform: scale(.95);
 }

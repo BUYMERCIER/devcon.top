@@ -54,7 +54,7 @@
         </div>
         <!-- button -->
         <div class="row d-flex justify-content-center my-5">
-          <a href="/" class="btn btn-primary btn-lg">Attend</a>
+          <a href="#" class="btn btn-primary btn-lg main-btn" onclick="scroll_to('section.tickets')">Attend</a>
         </div>
         <!-- subtitle -->
         <!-- <div class="row">
@@ -116,34 +116,60 @@
     </section>
 
     <!-- Tech counselor -->
-    <section class="bg-dark">
+    <!-- <section class="bg-dark">
       <div class="container">
         <h1 class="text-center pt-5">Tech Counselor</h1>
         <hr class="mb-5">
         <div class="row">
-          <p>test</p>
+          <p></p>
+        </div>
+      </div>
+    </section> -->
+
+    {% include 'home/participants.html' %}
+
+    <!-- Development Teams -->
+    <section class="bg-dark">
+      <div class="container">
+        <h1 class="text-center pt-5">Development Teams</h1>
+        <hr class="mb-5">
+        <div class="row">
+          <p></p>
         </div>
       </div>
     </section>
 
-    <!-- Participants -->
+    <!-- Agenda -->
     <section class="bg-dark">
       <div class="container">
-        <h1 class="text-center pt-5">Participants</h1>
+        <h1 class="text-center pt-5">Agenda</h1>
         <hr class="mb-5">
         <div class="row">
-          <p>test</p>
+          <p></p>
         </div>
       </div>
     </section>
 
-    <!-- Participants -->
+    {% include 'home/tickets.html' %}
+
+    <!-- Sponsors -->
     <section class="bg-dark">
       <div class="container">
-        <h1 class="text-center pt-5">Participants</h1>
+        <h1 class="text-center pt-5">Sponsors</h1>
         <hr class="mb-5">
         <div class="row">
-          <p>test</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="bg-dark">
+      <div class="container">
+        <h1 class="text-center pt-5">Partners</h1>
+        <hr class="mb-5">
+        <div class="row">
+          <p></p>
         </div>
       </div>
     </section>
@@ -157,9 +183,10 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="/static/js/jquery.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/custom.js"></script>
   </body>
 </html>
 
