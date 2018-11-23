@@ -12,3 +12,8 @@ python3 app.py
 ```
 
 Open up 127.0.0.1:8000 in your browser
+
+## Credits
+
+Ticket icon made by Dave Gandy from flaticon.com  
+Companies logos and attendees pictures used with permission
